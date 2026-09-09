@@ -1,0 +1,20 @@
+[server]
+headless = true
+address = "0.0.0.0"
+port = 8501
+fileWatcherType = "none"
+maxUploadSize = 20
+enableXsrfProtection = true
+[browser]
+gatherUsageStats = false
+[theme]
+base = "light"
+primaryColor = "#e74c3c"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f5f9"
+textColor = "#0f172a"
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false
+[logger]
+level = "info"

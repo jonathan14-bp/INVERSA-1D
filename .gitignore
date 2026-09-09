@@ -1,0 +1,33 @@
+# ---- Dokumen penelitian ----
+*.pdf
+*.docx
+*.doc
+Clear_Draft_Submission*
+draft/
+manuscript/
+
+# ---- Data mentah ----
+data/
+raw_data/
+*.xls
+*.xlsx
+*.csv
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Editor & OS ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# ---- Streamlit ----
+.streamlit/secrets.toml

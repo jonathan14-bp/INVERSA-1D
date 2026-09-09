@@ -1,0 +1,22 @@
+services:
+  inversa1d:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: inversa1d:1.0.0
+    container_name: inversa1d
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2G

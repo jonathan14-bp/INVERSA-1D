@@ -1,0 +1,18 @@
+﻿cff-version: 1.2.0
+message: "Jika Anda menggunakan perangkat lunak ini, mohon sitasi sebagai berikut."
+title: "INVERSA-1D: Aplikasi Inversi Geolistrik 1D dengan Metode Damped SVD dan Levenberg-Marquardt"
+authors:
+  - family-names: "Putra"
+    given-names: "Jonathan Bilian"
+version: 1.0.0
+date-released: "2026-09-09"
+license: MIT
+repository-code: "https://github.com/jonathan14-bp/INVERSA-1D"
+keywords:
+  - geoelectric
+  - resistivity
+  - vertical electrical sounding
+  - inversion
+  - singular value decomposition
+  - Levenberg-Marquardt
+  - Streamlit
